@@ -1,0 +1,63 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+
+# Django-specific
+*.log
+*.pot
+*.pyc
+*.sqlite3
+*.db
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+.env
+.env.*
+
+# Migrations (optional if you want to ignore generated migrations)
+**/migrations/
+!**/migrations/__init__.py
+
+# VSCode & IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Docker
+Dockerfile
+docker-compose.yml
+docker-compose.override.yml
+*.tar
+*.bak
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+
+# Build
+build/
+dist/
+*.egg
+.eggs/
+pip-wheel-metadata/
+*.manifest
+
+# Tests
+*.pytest_cache/
+.noseids
+
